@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  body{
+    background-color: rgba(171, 247, 247, 0.562);
+    font-family: cursive;
+  }
+  .main{
+    height: 60%;
+    width: 70%;
+    background-color: blanchedalmond;
+    margin-left: 15%;
+    margin-top:10%;
+    padding:20px;
+    /* margin-bottom: 10%; */
+    border-radius: 30px;
+  }
+  .heading{
+    margin-left:32%;
+    color:rgb(40, 80, 139);
+    font-style: oblique;
+    font-size: 45px;
+  }
+  .row{
+    display: flex;
+    flex-direction:row;
+    height:25%;
+    width:80%;
+    margin:2px 20px;
+    /* margin-top:0; */
+    /* display: flex; */
+    /* margin-bottom: %; */
+    margin-left: 10%;
+    /* background-color: azure; */
+  }
+  .col{
+    height:90%;
+    width: 32%;
+    margin: 2px;
+    border-radius: 35px;
+    background-color: rgb(97, 201, 161);
+  }
+  .button{
+    height:50px;
+    width: 130px;
+    border:5px solid rgb(58, 216, 119);
+    border-radius: 40px;
+    background-color: antiquewhite;
+    margin: 40px 38%;
+    font-family: cursive;
+    font-size: 20px;
+  }
+  .status{
+    margin-top:10px;
+    display:flex;
+    flex-direction: row;
+  }
+  #para{
+      font-size: 23px;
+      color:rgb(68, 133, 185);
+  }
+  #toShow{
+    font-size: 20px;
+    color:rgb(93, 172, 110);
+  }
+  /* .main{
+    
+    background-color: rgb(239, 252, 129);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    height:600px;
+    width: 600px;
+  }
+  /* .col{
+    padding: 10px;
+    margin: 20px;
+    
+    display:grid; 
+    /* grid-template-columns: auto; */
+    /* flex-direction: row; */
+    /* border: 1px solid transparent;
+    background-color:rgb(255, 0, 191);
+    border-radius: 5px;
+  
+  } */
+  /* .row{
+    padding: 10px;
+    height:
+    margin: 20px;
+  
+    height:100px;
+    display:flexbox; 
+    border: 1px solid transparent;
+    background-color: burlywood;
+    border-radius: 10px;
+  } */
+  /*.button{
+    justify-content: center;
+    align-items: left;
+    place-items: center;
+  }  */
